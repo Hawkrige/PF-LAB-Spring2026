@@ -4,7 +4,7 @@ int main() {
 
     int choice;
     int balance;
-    int withdraw:
+    int withdraw;
 
     printf("----Menu----\n 1. Balnce Inquiry \n 2. Cash Withdrawal \n 3. Deposit \n 4. Exit \n Enter your choice");
     scanf("d", &choice);
