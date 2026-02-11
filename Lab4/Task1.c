@@ -8,7 +8,7 @@ int main() {
    scanf("%d",&attendance);
 
    if (attendance >=75) {
-    print("Eligible for Exams");
+    printf("Eligible for Exams");
     
    }
    else {
