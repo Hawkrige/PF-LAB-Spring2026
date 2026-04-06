@@ -9,10 +9,13 @@ int main(){
         printf("Enter marks:\n ");
         scanf("%d",(p+i));
     }
-    printf("original marks : \n %d ",*(p+j));
+    
+    printf("original marks : \n");
 
     for(int j = 0; j<6;j++)
     {
+
+        printf(" %d ",*(p+j));
         
 
     }
