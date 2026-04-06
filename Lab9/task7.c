@@ -19,6 +19,7 @@ int main(){
         
 
     }
+    printf("\n");
 
     int highest;
     highest = *p;
