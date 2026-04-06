@@ -9,10 +9,11 @@ int main(){
         printf("Enter marks:\n ");
         scanf("%d",(p+i));
     }
+    printf("original marks : \n %d ",*(p+j));
 
     for(int j = 0; j<6;j++)
     {
-        printf("original marks : \n %d ",*(p+j));
+        
 
     }
 
@@ -28,6 +29,7 @@ int main(){
         highest = *(p+k);
     }
     }
+    
     printf("Scaled marks: \n");
 
     for(int x = 0 ; x<6;x++)
@@ -38,7 +40,7 @@ int main(){
 
         
 
-        printf("%d", *(p+x));
+        printf("%d ", *(p+x));
         
     }
 
